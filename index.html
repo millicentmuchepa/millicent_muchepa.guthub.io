@@ -29,13 +29,27 @@
 
 				<!-- Header -->
 					<header id="header">
-						<a href="index.html" class="logo">Millicent</a>
+						<a href="index.html" class="logo">Hi there!!</a>
 					</header>
 
 				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Projects</a></li>
+					
+
+				<nav id="nav">
+					<ul class="links">
+						<li class="active"><a href="index.html">Projects</a></li>
+						<li class="active"><a href="index.html">Skills</a></li>
+						<li class="active"><a href="index.html">Contact Me</a></li>
+
+						
+							<nav id="nav">
+								<ul class="links">
+									<li><a href="index.html" class="button">Projects</a></li>
+									<li><a href="index.html" class="button">Skills</a></li>
+									<li><a href="index.html" class="button">Contact Me</a></li>
+								</ul>
+							</nav>
+
 							
 						</ul>
 						<ul class="icons">
@@ -44,7 +58,6 @@
 									<li><a href="https://github.com/millicentmuchepa" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
 									<li><a href="https://www.instagram.com/itxmilliii/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
 
-							
 						</ul>
 					</nav>
 
@@ -52,20 +65,11 @@
 					<div id="main">
 
 						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2><a href="#">Data cleaning in SQL<br />
-									</a></h2>
-									<p>In this project we clean data</p>
-								</header>
-								<a href="#" class="image main"><img src="images/housing.jpg" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="https://github.com/millicentmuchepa/dev" class="button large">View Project</a></li>
-								</ul>
-							</article>
+						
 
 						<!-- Posts -->
-							<section class="posts">
+							<section class="posts" style="background-image: url('images/background.jpg'); background-size: cover; background-position: center; padding: 20px;">
+
 								<article>
 									<header>
 										<h2><a href="#">Data Exploration in SQL<br />
@@ -88,30 +92,8 @@
 										<li><a href="https://public.tableau.com/app/profile/millicent.muchepa/viz/test_17389961436540/Totaltiltesbycountry?publish=yes" class="button">View Project</a></li>
 									</ul>
 								</article>
-								<article>
-									<header>
-										<span class="date">April 18, 2017</span>
-										<h2><a href="#">Ante mattis<br />
-										interdum dolor</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<span class="date">April 14, 2017</span>
-										<h2><a href="#">Tempus sed<br />
-										nulla imperdiet</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Full Story</a></li>
-									</ul>
-								</article>
+								
+								
 								<article>
 									<header>
 										<span class="date">April 11, 2017</span>
@@ -138,32 +120,6 @@
 								</article>
 							</section>
 
-						
-
-				<!-- Footer -->
-				
-
-
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>Champaign, Illinois<br />
-								</p>
-							</section>
-						
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">millyvee2001@gmail.com</a></p>
-							</section>
-							
-						</section>
-					</footer>
-
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
-
 			</div>
 
 		<!-- Scripts -->
@@ -175,5 +131,30 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+
+
+<!-- Quote Section -->
+<section class="quote" style="text-align: center; color: white; font-size: 1.2em; font-style: italic; margin-top: 20px;">
+    <blockquote>
+        "I have learned over the years that when one's mind is made up, this diminishes fear." 
+        <br>— Rosa Parks
+    </blockquote>
+</section>
+
+<!-- Copyright -->
+<div id="copyright" style="text-align: center; color: white; font-size: 1em; margin-top: 10px;">
+    <ul>
+        <li>&copy; <span id="year"></span> Millicent Muchepa</li>
+    </ul>
+</div>
+
+<script>
+    // Automatically update the year
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+
+
+			
 	</body>
 </html>
